@@ -1,9 +1,19 @@
-li {
-    font-size: 2rem;
-    width: 300px;
-    margin: 4px;
-    padding: 4px;
-    list-style: none
-    }
-    .dash {background-color: green}
-  
+/* unvisited link */
+a:link {
+  color: blue;
+}
+/* mouse over link */
+a:hover {
+  color: red;
+}
+div {
+  padding: 40px;
+
+  font-size: larger;
+
+  height: 50px;
+
+  background: orange;
+
+  border: 5px dashed purple;
+}
