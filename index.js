@@ -9,7 +9,7 @@ app.set('view engine', 'handlebars');
 //Sets handlebars configurations (we will go through them later on)
 app.engine(
   'handlebars',
-  handlebars.engine({
+  handlebars({
     layoutsDir: __dirname + '/views/layouts',
   })
 );
